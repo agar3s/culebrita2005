@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="logca-i" size="1182,1003" id="edu.logca" metadata="uml2-1.0" initialized="true" tag="1000" key="323030343130323620537570657220536E616B65204949492F6352655370696973">
+  <children xsi:type="editmodel:ClassEditModel" name="BonoParalizar" location="16,380" size="154,70" id="edu.logca/BonoParalizar" runTimeClassModel="BonoParalizar()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoParalizar" id="edu.logca/BonoParalizar#BonoParalizar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.12/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.7/@sourceConnections.0" id="edu.logca/BonoTemporal&lt;-edu.logca/BonoParalizar" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,70" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoParalizado" location="667,380" size="167,70" id="edu.logca/BonoParalizado" runTimeClassModel="BonoParalizado()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoParalizado" id="edu.logca/BonoParalizado#BonoParalizado()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/BonoTemporal&lt;-edu.logca/BonoParalizado" source="//@children.1" target="//@children.0/@sourceConnections.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,70"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoDescontrol" location="487,380" size="171,70" id="edu.logca/BonoDescontrol" runTimeClassModel="BonoDescontrol()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoDescontrol" id="edu.logca/BonoDescontrol#BonoDescontrol()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/BonoTemporal&lt;-edu.logca/BonoDescontrol" source="//@children.2" target="//@children.0/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,70"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoDisparar" location="173,262" size="152,70" id="edu.logca/BonoDisparar" runTimeClassModel="BonoDisparar()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoDisparar" id="edu.logca/BonoDisparar#BonoDisparar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.11/@sourceConnections.0" id="edu.logca/Bono&lt;-edu.logca/BonoDisparar" source="//@children.3" target="//@children.10" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,88" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="BonoTemporal" location="324,262" size="158,70" id="edu.logca/BonoTemporal" runTimeClassModel="BonoTemporal()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoTemporal" id="edu.logca/BonoTemporal#BonoTemporal()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.0" id="edu.logca/Bono&lt;-edu.logca/BonoTemporal" source="//@children.4" target="//@children.10" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,88" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoCola" location="50,170" size="120,70" id="edu.logca/BonoCola" runTimeClassModel="BonoCola()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoCola" id="edu.logca/BonoCola#BonoCola()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/Bono&lt;-edu.logca/BonoCola" source="//@children.5" target="//@children.4/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,70" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoRobaCola" location="651,262" size="161,70" id="edu.logca/BonoRobaCola" runTimeClassModel="BonoRobaCola()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoRobaCola" id="edu.logca/BonoRobaCola#BonoRobaCola()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/Bono&lt;-edu.logca/BonoRobaCola" source="//@children.6" target="//@children.3/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,58"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoAcelerar" location="829,380" size="202,88" id="edu.logca/BonoAcelerar" runTimeClassModel="BonoAcelerar(),adicionarComportamiento(Ledu.logca.Culebra;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoAcelerar" id="edu.logca/BonoAcelerar#BonoAcelerar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionarComportamiento" id="edu.logca/BonoAcelerar#adicionarComportamiento(Ledu.logca.Culebra;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/BonoTemporal&lt;-edu.logca/BonoAcelerar" source="//@children.7" target="//@children.0/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,70"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoBomba" location="351,380" size="140,70" id="edu.logca/BonoBomba" runTimeClassModel="BonoBomba()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoBomba" id="edu.logca/BonoBomba#BonoBomba()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/BonoTemporal&lt;-edu.logca/BonoBomba" source="//@children.8" target="//@children.0/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,70"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoObstaculo" location="482,262" size="165,70" id="edu.logca/BonoObstaculo" runTimeClassModel="BonoObstaculo()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoObstaculo" id="edu.logca/BonoObstaculo#BonoObstaculo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/Bono&lt;-edu.logca/BonoObstaculo" source="//@children.9" target="//@children.3/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,36"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.13/@children.4/@sourceConnections.2" name="Bono" location="522,50" size="202,88" id="edu.logca/Bono" runTimeClassModel="adicionarComportamiento(Ledu.logca.Culebra;),Bono()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Bono" id="edu.logca/Bono#Bono()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionarComportamiento" id="edu.logca/Bono#adicionarComportamiento(Ledu.logca.Culebra;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoApocalipsis" location="814,262" size="174,70" id="edu.logca/BonoApocalipsis" runTimeClassModel="BonoApocalipsis()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoApocalipsis" id="edu.logca/BonoApocalipsis#BonoApocalipsis()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/Bono&lt;-edu.logca/BonoApocalipsis" source="//@children.11" target="//@children.3/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,52"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonoInvulnerable" location="169,380" size="180,70" id="edu.logca/BonoInvulnerable" runTimeClassModel="BonoInvulnerable()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BonoInvulnerable" id="edu.logca/BonoInvulnerable#BonoInvulnerable()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/BonoTemporal&lt;-edu.logca/BonoInvulnerable" source="//@children.12" target="//@children.0/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,70"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:GroupEditModel" location="40,-40" size="417,190">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@children.1/@sourceConnections.0" name="Vector2D" location="301,11" size="116,32" id="edu.logca/Vector2D" runTimeClassModel="mover(),sPEED,rotarIzq(),puntoIzq(),rotando,angle,y,cambioX(Z),gIRO,rADIO,puntoDer(),Vector2D(II),x,rotarDer()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="116,126"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="86,126"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@children.2/@sourceConnections.0" name="Objeto" location="118,0" size="95,70" id="edu.logca/Objeto" runTimeClassModel="Objeto()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="70,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Objeto" id="edu.logca/Objeto#Objeto()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" id="edu.logca/Vector2D@vector2D+edu.logca/Objeto@objeto" source="//@children.13/@children.1" target="//@children.13/@children.0" targetEnd="//@children.13/@children.1/@sourceConnections.0/@children.1" label="//@children.13/@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.13/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="objeto" location="95,26" id="edu.logca/Vector2D@vector2D+edu.logca/Objeto@objeto|edu.logca/Objeto#objeto" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="vector2D" location="0,15" id="edu.logca/Vector2D@vector2D+edu.logca/Objeto@objeto|edu.logca/Vector2D#vector2D" multiplicityLabel="//@children.13/@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.13/@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - vector2D" location="271,-37" size="63,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="292,0" size="23,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="6.0" distanceFromWire="128.0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="1,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@children.3/@sourceConnections.1" name="Cola" location="0,120" size="81,70" id="edu.logca/Cola" runTimeClassModel="Cola()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Cola" id="edu.logca/Cola#Cola()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.13/@children.4/@sourceConnections.0 //@children.13/@children.3/@sourceConnections.0" id="edu.logca/Objeto&lt;-edu.logca/Cola" source="//@children.13/@children.2" target="//@children.13/@children.1" targetEnd="//@children.13/@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="40,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="47,70" anchorKind="FixedAtEdge"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@children.4/@sourceConnections.1" name="Cabeza" location="245,120" size="101,70" id="edu.logca/Cabeza" runTimeClassModel="Cabeza()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="76,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Cabeza" id="edu.logca/Cabeza#Cabeza()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/Objeto&lt;-edu.logca/Cabeza" source="//@children.13/@children.3" target="//@children.13/@children.2/@sourceConnections.0" targetEnd="//@children.13/@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="50,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,42"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" id="edu.logca/Cola@cola+edu.logca/Cabeza@cabeza" source="//@children.13/@children.3" target="//@children.13/@children.2" targetEnd="//@children.13/@children.3/@sourceConnections.1/@children.1" label="//@children.13/@children.3/@sourceConnections.1/@children.2" sourceEnd="//@children.13/@children.3/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="cabeza" location="45,70" id="edu.logca/Cola@cola+edu.logca/Cabeza@cabeza|edu.logca/Cabeza#cabeza" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="cola" location="49,70" id="edu.logca/Cola@cola+edu.logca/Cabeza@cabeza|edu.logca/Cola#cola" multiplicityLabel="//@children.13/@children.3/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.13/@children.3/@sourceConnections.1/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - cola" location="45,157" size="37,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="96,157" size="6,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="1,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Culebra" location="111,120" size="104,70" id="edu.logca/Culebra" runTimeClassModel="Culebra()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="76,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Culebra" id="edu.logca/Culebra#Culebra()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.logca/Objeto&lt;-edu.logca/Culebra" source="//@children.13/@children.4" target="//@children.13/@children.2/@sourceConnections.0" targetEnd="//@children.13/@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,39"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" id="edu.logca/Cabeza@cabeza1+edu.logca/Culebra@culebra1" source="//@children.13/@children.4" target="//@children.13/@children.3" targetEnd="//@children.13/@children.4/@sourceConnections.1/@children.1" label="//@children.13/@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.13/@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="culebra1" location="104,35" id="edu.logca/Cabeza@cabeza1+edu.logca/Culebra@culebra1|edu.logca/Culebra#culebra1" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="cabeza1" location="0,35" id="edu.logca/Cabeza@cabeza1+edu.logca/Culebra@culebra1|edu.logca/Cabeza#cabeza1" multiplicityLabel="//@children.13/@children.4/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.13/@children.4/@sourceConnections.1/@children.1/@children.0" aggregationKind="Composition" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - cabeza1" location="230,90" size="62,16" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-9.0" distanceFromWire="17.0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="1" location="270,122" size="8,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="1,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" id="edu.logca/Bono@bono+edu.logca/Culebra@culebra" source="//@children.13/@children.4" target="//@children.10" targetEnd="//@children.13/@children.4/@sourceConnections.2/@children.1" label="//@children.13/@children.4/@sourceConnections.2/@children.2" sourceEnd="//@children.13/@children.4/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="culebra" location="73,0" id="edu.logca/Bono@bono+edu.logca/Culebra@culebra|edu.logca/Culebra#culebra" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="bono" location="0,22" id="edu.logca/Bono@bono+edu.logca/Culebra@culebra|edu.logca/Bono#bono" multiplicityLabel="//@children.13/@children.4/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.13/@children.4/@sourceConnections.2/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - bono" location="474,49" size="41,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="509,79" size="6,16" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="1,16" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
